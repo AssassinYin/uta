@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_tulip"
+    },
+    "title": {
+      "translate": "advancement.lycoris.title",
+      "color": "yellow"
+    },
+    "description": {
+      "translate": "advancement.lycoris.lore"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "in_game_event:uhc_advancements/enemy_at_the_gate",
+  "criteria": {
+    "lycoris": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

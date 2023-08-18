@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "advancement.firstblood.title",
+      "color": "yellow"
+    },
+    "description": {
+      "translate": "advancement.firstblood.lore"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "in_game_event:uhc_advancements/root",
+  "criteria": {
+    "firstblood": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

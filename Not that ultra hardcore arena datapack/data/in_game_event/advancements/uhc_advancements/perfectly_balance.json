@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:black_dye"
+    },
+    "title": {
+      "translate": "advancement.perfectlybalance.title",
+      "color": "yellow"
+    },
+    "description": {
+      "translate": "advancement.perfectlybalance.lore"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "in_game_event:uhc_advancements/lycoris",
+  "criteria": {
+    "perfectlybalance": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

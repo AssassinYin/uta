@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:black_dye"
+    },
+    "title": {
+      "translate": "advancement.deathhandshake.title",
+      "color": "yellow"
+    },
+    "description": {
+      "translate": "advancement.deathhandshake.lore"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "in_game_event:uhc_advancements/perfectly_balance",
+  "criteria": {
+    "deathhandshake": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

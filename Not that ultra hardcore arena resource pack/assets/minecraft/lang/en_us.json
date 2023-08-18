@@ -1,0 +1,91 @@
+{
+    "pack.description.data": "The not that ultra hardcore arena datapack.",
+    "pack.description.resource": "The not that ultra hardcore arena resource pack.",
+
+    "system.name": "[System] ",
+
+    "system.init.gamerule": "Initialize game rules (1/4)",
+    "system.init.ingame": "Initialize in game setting (2/4)",
+    "system.init.waitroom": "Initialize wait room (3/4)",
+    "system.init.team": "Initialize team setting (4/4)",
+    "system.init.completed": "Initialize completed",
+
+    "system.load.chunks": "Loading chunks...",
+    "system.load.completed": "Done!",
+
+    "system.announcement.start": "Click here or execute the function lobby:selection/start_game to start the game",
+    "system.announcement15": "15 mins: Gain instant health II on kill now.",
+    "system.announcement30": "30 mins: Name tag appear.",
+    "system.announcement50": "50 mins: Border start shrinking. Gain only instant health I on kill now. Limited height to 56-88 and close nether. All mob stop spawning and no longer drop loots. Players start Glowing.",
+    "system.announcement60": "60 mins: Border stop shrinking.",
+
+    "system.announcement.endingscreen1": "is the winner!",
+    "system.announcement.endingscreen2": "If you find any bugs during the gameplay, feel free to contact me through discord or curse.",
+    "system.announcement.endingscreen3": "I’m AssassinYin, hope you enjoy this game.",
+
+    "book.pad.title": "Rules & Selection",
+
+    "book.select.rule": "Vanilla rule tweaks\n",
+    "book.select.team": "Team selection\n",
+    "book.select.mode": "Mode selection\n",
+    "book.select.class": "Class selection\n",
+    "book.select.toggle.loadingchunk": "Toggle loading chunk (false by default)\n",
+    "book.select.toggle.teamselection": "Toggle non-op team selection (true by default)\n",
+    "book.select.startgame": "[Start Game]",
+
+    "book.rule1": "Vanilla rule tweaks:\n- Reward 25 more experience on every vanilla advancement. (Expect for those already have reward.)\n- Nether wart block can be craft into nether wart.\n- Different bartering loot table is presented.",
+    "book.rule2": "- Remove quartz, soul sand, nether brick, gravel, blackstone.\n- Add blaze rod (quantity 1, weight 10).\n- Different fishing loot table is presented.\n- Remove name tag, bowl, ink sac, rotten flesh from junk table.",
+    "book.rule3": "- Chance of getting fish from fishing is decreased from 85% to 80%, while treasure is increased from 5% to 10%.",
+
+    "book.team.title": "Team selection:\n",
+    "book.team.random": "Randomize all non-spectator player (For singleplayer match only)\n",
+
+    "book.mode.medium.content1": "Medium:\nMap size: 1024*1024\nIn game event:\n0 mins: Gain Haste I and Invisibility for 15 mins.\n15 mins: Gain instant health II on kill now.\n30 mins: Name tag appear.\n50 mins: Border start shrinking.\nGain only instant health I on kill now.",
+    "book.mode.medium.content2": "Limited height to 56-88 and close nether.\nAll mob stop spawning and no longer drop loots.\nPlayers start Glowing.\n60 mins: Border stop shrinking, 32*32*32 is the final battlefield size.\n",
+    "book.mode.medium.startloading": "[Start loading chunks]",
+
+    "book.class1": "Class:\nWhat changes player’s play styles, every player start off with different item and various passive or active skills.\n[Melee] Suit for those prefers close combat.\n[Range] Suit for those prefers range combat.",
+    "book.class2": "[Utility] Suit for those prefers take advantages by out farming others.",
+
+    "book.swordsman1": "[Melee] Swordsman\nStart off with Wooden sword*1\n[Passive] Swordsmanship: Deals 2 more damage with sword and 5 less damage with axe.\n",
+
+    "book.lumberjack1": "[Melee/Utility] Lumberjack\nStart off with Stone axe*1\n[Passive] Forest looting: Deals 1 more damage with axe and 3 less damage with sword. Gain Luck II permanently.",
+
+    "book.knight1": "[Melee] Knight\nStart off with Shield*1\n[Passive] Knightly body: Gain +2 armor toughness and +1 knockback resistance. Gain Resistance II for 4s upon a successful block.",
+
+    "book.hunter1": "[Range] Hunter\nStart off with Bow*1, Arrow*4\n[Active] Arrow of moonlight: Enchant the arrow with moonlight in your offhand. (One at a time.) Moonlight arrow travel faster, does not affect by gravity, and deals less damage when fired from crossbow.",
+    "book.hunter2": "Disable melee attack and stop ability recharge while holding the moonlight arrow. Recharge time: 3 mins.",
+
+    "book.miner1": "[Utility] Miner\nStart off with Stone pickaxe*1\n[Passive] Ore rush: Gain Haste II permanently.\n",
+
+    "advancement.root.title": "UHC advancements",
+    "advancement.root.lore": "Where I reveal my true weeb form",
+    "advancement.firstblood.title": "First blood",
+    "advancement.firstblood.lore": "Drew first blood. Reward 100 experience.",
+    "advancement.dueloffate.title": "Duel of fate",
+    "advancement.dueloffate.lore": "Vanishing an opponent while using only sword during recent 1 min. (Without axe, crossbow, and bow) Reward 100 experience.",
+    "advancement.enemyatthegate.title": "Enemy at the Gates",
+    "advancement.enemyatthegate.lore": "Vanish an opponent 50 blocks away. Reward 100 experience.",
+    "advancement.lycoris.title": "Lycoris",
+    "advancement.lycoris.lore": "Vanishing an opponent without taking any damage during recent 1 min. Reward 150 experience.",
+    "advancement.perfectlybalance.title": "Perfectly balance",
+    "advancement.perfectlybalance.lore": "To bring the balance of the world, vanish six opponents. Reward 150 experience.",
+    "advancement.deathhandshake.title": "Death handshake",
+    "advancement.deathhandshake.lore": "Bring death to anyone touched you, vanish three players in a row, with no more than 20 seconds between each vanish. Reward 200 experience.",
+
+    "skill.announcement.recharge": "Ability is recharging, ",
+    "skill.announcement.timeleft": " second(s) left.",
+
+    "skill.announcement.hunter.missingarrow": "Require an arrow in offhand to use.",
+
+    "skill.item.hunter.name": "Arrow of moonlight",
+    "skill.item.hunter.lore1": "Enchant the arrow with moonlight in your offhand.",
+    "skill.item.hunter.lore2": "(One at a time.) Moonlight arrow travel faster,",
+    "skill.item.hunter.lore3": "does not affect by gravity, and deals less damage",
+    "skill.item.hunter.lore4": "when fired from crossbow. Disable melee attack and",
+    "skill.item.hunter.lore5": "stop ability recharge while holding the moonlight",
+    "skill.item.hunter.lore6": "arrow. Recharge time: 3 mins.",
+
+    "skill.item.moonlightarrow.name": "Moonlight arrow"
+
+}

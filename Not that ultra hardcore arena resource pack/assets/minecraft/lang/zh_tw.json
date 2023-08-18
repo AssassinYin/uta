@@ -1,0 +1,91 @@
+{
+    "pack.description.data": "NUHC資料包",
+    "pack.description.resource": "NUHC資源包",
+
+    "system.name": "［系統］",
+
+    "system.init.gamerule": "初始化遊戲規則 (1/4)",
+    "system.init.ingame": "初始化遊戲內設定 (2/4)",
+    "system.init.waitroom": "初始化等待大廳 (3/4)",
+    "system.init.team": "初始化團隊設定 (4/4)",
+    "system.init.completed": "初始化完成",
+
+    "system.load.chunks": "區塊加載中...",
+    "system.load.completed": "完成！",
+
+    "system.announcement.start": "點我或執行函式/lobby:selection/start_game以開始遊戲",
+    "system.announcement15": "15分：現在擊殺給予立即治療二。",
+    "system.announcement30": "30分：名牌出現。",
+    "system.announcement50": "50分：邊界開始收縮。擊殺現在只給予立即治療一。限制高度至56-88格，並關閉地獄。所有生物停止生成，並且不再掉落任何掉落物。玩家開始發光。",
+    "system.announcement60": "60分：邊界停止收縮。",
+
+    "system.announcement.endingscreen1": "獲勝！",
+    "system.announcement.endingscreen2": "要是你在遊玩過程中找到漏洞的話，可以透過巴哈、DC、或Curse和我聯絡。",
+    "system.announcement.endingscreen3": "我是AssassinYin，希望大家有好好享受這場遊戲。",
+
+    "book.pad.title": "規則 & 功能選擇",
+
+    "book.select.rule": "原版內容更動\n",
+    "book.select.team": "團隊選擇\n",
+    "book.select.mode": "模式選擇\n",
+    "book.select.class": "職業選擇\n",
+    "book.select.toggle.loadingchunk": "切換加載區塊（默認為否）\n",
+    "book.select.toggle.teamselection": "切換非管理員團隊選擇權（默認為是）\n",
+    "book.select.startgame": "［開始遊戲］",
+
+    "book.rule1": "原版內容更動：\n-完成任何原版成就都會給予25經驗值。（除了原先已經會給予經驗的成就）\n-地獄疙瘩可以由地獄疙瘩塊分解獲得。\n-以物易物擁有不一樣的戰利品表。",
+    "book.rule2": "-移除獲得石英、靈魂沙、地獄磚、礫石、黑石的機會。\n-增加烈焰桿（數量一，權重十）。\n-釣魚擁有不一樣的戰利品表。\n-移除獲得命名牌、碗、墨囊、腐肉的機會。\n",
+    "book.rule3": "-釣到魚的機率降低5%，釣到寶藏的機率提升5%。\n",
+
+    "book.team.title": "團隊選擇：\n",
+    "book.team.random": "隨機分隊（只適用於單人賽）\n",
+
+    "book.mode.medium.content1": "標準：\n遊戲地圖大小：1024*1024\n遊戲事件：\n0分：獲得15分鐘的挖掘加速和隱形。\n15分：擊殺給予立即治療二。\n30分：名牌出現。\n50分：邊界開始收縮。\n擊殺現在只給予立即治療一。",
+    "book.mode.medium.content2": "限制高度至56-88格，並關閉地獄。\n所有生物停止生成，並且不再掉落任何掉落物。\n玩家開始發光。\n60分：邊界停止收縮，最後決戰空間為32*32*32。",
+    "book.mode.medium.startloading": "［開始加載區塊］",
+
+    "book.class1": "職業選擇：\n給予玩家不同風格的玩法，根據玩法的不同，起始物也會不同。\n［近戰］適合喜歡近身肉搏的玩家。\n［遠程］適合喜歡遠程輸出的玩家。",
+    "book.class2": "［功能］適合喜歡透過獲取更多資源打出優勢的玩家。",
+
+    "book.swordsman1": "［近戰］劍士\n開場擁有木劍*1\n［被動］純熟劍技：使用劍造成的傷害增加兩點，使用斧頭造成的傷害減少五點。\n",
+
+    "book.lumberjack1": "［近戰/功能］樵夫\n開場擁有石斧*1\n［被動］森林掠奪：使用斧頭造成的傷害增加一點，使用劍造成的傷害減少三點。獲得永久的幸運二。\n",
+
+    "book.knight1": "［近戰］騎士\n開場擁有盾牌*1\n［被動］騎士之身：獲得兩點盔甲抗性和一點擊退抗性。在格擋成功後獲得四秒的抗性二。",
+
+    "book.hunter1": "［遠程］獵人\n開場擁有弓*1，箭*4\n［主動］月光之箭：附魔副手中的箭。（一次只能附魔一支。）月光之箭速度更快，不受重力影響，且以弩擊發時造成更少傷害。",
+    "book.hunter2": "拿著月光之箭的時候無法近戰攻擊，且技能不會冷卻。冷卻：三分鐘。",
+
+    "book.miner1": "［功能］礦工\n開場擁有石鎬*1\n［被動］礦物狂熱：獲得永久的挖掘加速二。",
+
+    "advancement.root.title": "UHC 成就",
+    "advancement.root.lore": "展現我宅宅真面目的地方",
+    "advancement.firstblood.title": "第一滴血",
+    "advancement.firstblood.lore": "成為首次擊殺其他玩家的玩家。100點經驗獎勵",
+    "advancement.dueloffate.title": "命運對決",
+    "advancement.dueloffate.lore": "在最近一分鐘內只使用劍的情況下擊殺一名玩家。（不使用斧頭、弩或弓）100點經驗獎勵",
+    "advancement.enemyatthegate.title": "大敵當前",
+    "advancement.enemyatthegate.lore": "擊殺一名50格外的敵人。100點經驗獎勵",
+    "advancement.lycoris.title": "彼岸之境：",
+    "advancement.lycoris.lore": "在最近一分鐘內不受到傷害的情況下擊殺一名玩家。150點經驗獎勵",
+    "advancement.perfectlybalance.title": "完美平衡",
+    "advancement.perfectlybalance.lore": "為了帶來世界的平衡，擊殺場上六名玩家。150點經驗獎勵",
+    "advancement.deathhandshake.title": "死亡之握",
+    "advancement.deathhandshake.lore": "為所有接觸過你的人帶來死亡，連續擊殺三名玩家，並且每一次擊殺間隔不超過二十秒。200點經驗獎勵",
+
+    "skill.announcement.recharge": "技能冷卻中，",
+    "skill.announcement.timeleft": "秒後可再次使用。",
+
+    "skill.announcement.hunter.missingarrow": "副手需配有一支箭。",
+
+    "skill.item.hunter.name": "月光之箭",
+    "skill.item.hunter.lore1": "附魔副手中的箭。（一次只能附魔",
+    "skill.item.hunter.lore2": "一支。）月光之箭速度更快，不受",
+    "skill.item.hunter.lore3": "重力影響，且以弩擊發時造成更少",
+    "skill.item.hunter.lore4": "傷害。拿著月光之箭的時候無法近",
+    "skill.item.hunter.lore5": "戰攻擊，且技能不會冷卻。",
+    "skill.item.hunter.lore6": "冷卻：三分鐘。",
+
+    "skill.item.moonlightarrow.name": "月光之箭"
+
+}

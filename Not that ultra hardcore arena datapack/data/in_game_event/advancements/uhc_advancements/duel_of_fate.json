@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "advancement.dueloffate.title",
+      "color": "yellow"
+    },
+    "description": {
+      "translate": "advancement.dueloffate.lore"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "in_game_event:uhc_advancements/first_blood",
+  "criteria": {
+    "dueloffate": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
